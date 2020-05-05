@@ -1,0 +1,178 @@
+.header .navbar-brand {
+    font-size: 30px;
+    color: #2C3038;
+    font-weight: 700;
+}
+
+.header .navbar-brand::before {
+    content: '\f002';
+    font-family: 'FontAwesome';
+    color: black;
+    margin-right: 20px;
+}
+
+.header .nav-item .nav-link {
+    color: #2C3038;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+.header .nav-item .nav-link:hover {
+    opacity: .7;
+}
+
+/* ВЫПАДАЮЩИЙ СПИСКО */
+.mydrop {
+    display: inline-block;
+    position: relative;
+}
+.drop-content {
+    position: absolute;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 340%;
+    border-radius: 5px;
+    height: 100px;
+    z-index: 100000;
+    right: -80px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.3);
+    display:none;
+    background-color: white;
+}
+.drop-content a {
+    color: #2C3038;
+    font-size: 17px;
+    font-weight: normal;
+    text-decoration: none;
+}
+.drop-content a:hover {
+    opacity: .6;
+}
+.drop-content:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid white;
+    transform: translateY(-100%);
+}
+.mydrop:hover .drop-content{
+    display: flex ;
+}
+/* ВЫПАДАЮЩИЙ СПИСКО */
+.drop-ico{
+    position: relative;
+}
+.drop-ico::after{
+    content: '\f107';
+    font-family: 'FontAwesome';
+    margin-left: 5px;
+}
+
+.blog{
+    right: -73px;
+    height: 80px;
+}
+
+.pages{
+    height: auto;
+    width: 600px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    position: absolute;
+    right: -255px;
+}
+.pages-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.pages-content:hover .drop-content{
+    display: flex;
+}
+.pages-content a{
+    margin: 5px 0;
+}
+
+/* КНОПКИ ДЛЯ СЛАЙДА */
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+/* КНОПКИ ДЛЯ СЛАЙДА */
+
+/* Информация на фоновых картинках */
+.carousel-caption {
+    position: absolute;
+   max-width: 560px;
+    top: 20%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+}
+.section h5{
+    padding-bottom: 4%;
+}
+.section h1{
+    padding-bottom: 3%;
+}
+.section p{
+    padding-bottom: 3%;
+}
+/* Информация на фоновых картинках */
+
+
+/* CЛАЙДЫ */
+.w-100{
+    min-height: 565px;
+}
+/* CЛАЙДЫ */
+
+
+
+
+
+
+
+
+
+
+/* АДАПТИВЧИК */
+@media only screen and (max-width:991px){
+    .drop-content{
+        right: 0px;
+        left: 0px;
+        align-items: flex-start;
+        padding-left: 15px;
+    }
+    .drop-content:before{
+        left: inherit;
+    }
+    .mydrop{
+        width: 30%;
+    }
+    .pages-content{
+        justify-content: space-between;
+    }
+    .pages{
+        width: 340%;
+    }
+}
+
+@media only screen and (max-width:451px){
+    .pages{
+        flex-direction: column;
+    }
+    .col{
+        overflow: scroll;
+    }
+}
