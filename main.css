@@ -321,7 +321,7 @@ select {
 
 /* СТАТИТИСТИКА */
 .section-rating {
-  margin: 50px 0;
+  margin-top: 50px;
   padding: 50px 0;
   background-color: #031427;
 }
@@ -382,10 +382,105 @@ select {
 .section-trip  .card-body  a:hover{
   opacity: .7;
 }
-.trip__stars{
-  
+.fa-star:before {
+  margin-right: 4px;
+}
+.nav-star .cards-rating{
+  margin-left: 10px;
 }
 /* ОЦЕНКИ О ТУРАХ */
+
+
+/* WONDERFUL TEAM */
+.section-team{
+  padding-top: 100px;
+  background-color: #F8F9FA;
+}
+.section-team .card{
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.section-team .card h5 a{
+  font-size: 20px;
+  color: #2c3038;
+  text-decoration: none;
+}
+.section-team .card h5 a:hover{
+  opacity: .7;
+}
+/* WONDERFUL TEAM */
+
+/* clients says */
+.clients-says{
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.clients-says .card{
+background-color: #F8F9FA;
+margin-top: 30px;
+}
+
+.photo-says span{
+  margin-left: 15px;
+
+}
+
+
+
+.card .client{
+  margin-left: 80px;
+  margin-top: -40px;
+  display: inline-block;
+}
+
+/* clients says */
+
+
+/* footer */
+.footer{
+  background-color: #031427;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.input-placheholder{
+  position: relative;
+}
+.return-contact .form-control{
+  border-radius: 0;
+  height: 100%;
+}
+.input-group-append{
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateX(98%);
+  border-left: none;
+  background-color: #fff;
+  border-radius: 0;
+  border:none;
+  height: 100%;
+  background: #f3f3f3;
+}
+.input-group-append:hover{
+  background-color: lightgray;
+}
+.footer a{
+  text-decoration: none;
+  color: #ffffffb3;
+}
+.footer a:hover{
+  opacity: .7;
+}
+.return-contact{
+  max-width: 400px;
+}
+.input-footer{
+  display: block;
+}
+/* footer */
+
 
 /* АДАПТИВЧИК */
 @media only screen and (max-width: 991px) {
