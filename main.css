@@ -6,7 +6,6 @@
   border-bottom: 1px solid #f3f3f3;
   width: 100%;
   height: 100%;
-  
 }
 .header .navbar-brand {
   font-size: 30px;
@@ -14,40 +13,33 @@
   font-weight: 700;
 }
 
-
-
 /* POPUP HEADER */
-.hidee{
- visibility: hidden;
+.hidee {
+  visibility: hidden;
 }
-.fa-search{
+.fa-search {
   font-size: 20px;
   margin-right: 30px;
   cursor: pointer;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
-.fa-search:hover{
+.fa-search:hover {
   color: blue;
   font-size: 23px;
 }
 
-.popup-check{
+.popup-check {
   opacity: 0;
 }
-.popup-wrapper{
+.popup-wrapper {
   position: absolute;
   width: 100%;
- 
-
-  
-  
 }
-.popup-content{
- 
+.popup-content {
   position: absolute;
   top: 0;
   width: 100%;
- background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,51 +49,46 @@
   height: 100vh;
 }
 
-.popup{
+.popup {
   display: none;
-
-
 }
 
-.popup-content .input-group{
+.popup-content .input-group {
   width: 30%;
   margin-top: 20px;
-  
 }
-.popup-content .input-group .form-control{
+.popup-content .input-group .form-control {
   height: 58px;
 }
-.btn-header-red{
+.btn-header-red {
   background-color: #f05448;
   color: white;
   font-size: 17px;
-  
+
   border-radius: 0;
 }
-.btn-header-red:hover{
+.btn-header-red:hover {
   color: white;
-  opacity: .7;
+  opacity: 0.7;
 }
-.popup-hidden{
+.popup-hidden {
   font-size: 30px;
   cursor: pointer;
   position: absolute;
   top: 5%;
   right: 5%;
-  transition: all .3s ease-in;
+  transition: all 0.3s ease-in;
 }
-.popup-hidden:hover{
-  opacity: .8;
+.popup-hidden:hover {
+  opacity: 0.8;
 }
 
-.popup-check:checked + .popup{
+.popup-check:checked + .popup {
   display: block;
   z-index: 7;
-  
 }
 
 /* POPUP HEADER */
-
 
 .header .nav-item .nav-link {
   color: #2c3038;
@@ -197,7 +184,7 @@
   height: 10px;
   border-radius: 100%;
 }
-.carousel-indicators{
+.carousel-indicators {
   z-index: 8;
 }
 /* КНОПКИ ДЛЯ СЛАЙДА */
@@ -458,65 +445,61 @@ select {
   margin: 80px 0;
   padding: 50px 0;
 }
-.section-trip  .card-body  a {
+.section-trip .card-body a {
   font-size: 20px;
   line-height: 25px;
   margin-top: 10px;
   text-decoration: none;
   display: block;
   padding-top: 10px;
-  color: #2C3038;
+  color: #2c3038;
 }
-.section-trip  .card-body  a:hover{
-  opacity: .7;
+.section-trip .card-body a:hover {
+  opacity: 0.7;
 }
 .fa-star:before {
   margin-right: 4px;
 }
-.nav-star .cards-rating{
+.nav-star .cards-rating {
   margin-left: 10px;
 }
 /* ОЦЕНКИ О ТУРАХ */
 
-
 /* WONDERFUL TEAM */
-.section-team{
+.section-team {
   padding-top: 100px;
-  background-color: #F8F9FA;
+  background-color: #f8f9fa;
 }
-.section-team .card{
+.section-team .card {
   margin-top: 50px;
   margin-bottom: 80px;
 }
-.section-team .card h5 a{
+.section-team .card h5 a {
   font-size: 20px;
   color: #2c3038;
   text-decoration: none;
 }
-.section-team .card h5 a:hover{
-  opacity: .7;
+.section-team .card h5 a:hover {
+  opacity: 0.7;
 }
 /* WONDERFUL TEAM */
 
 /* clients says */
-.clients-says{
+.clients-says {
   margin-top: 80px;
   margin-bottom: 50px;
 }
 
-.clients-says .card{
-background-color: #F8F9FA;
-margin-top: 30px;
+.clients-says .card {
+  background-color: #f8f9fa;
+  margin-top: 30px;
 }
 
-.photo-says span{
+.photo-says span {
   margin-left: 15px;
-
 }
 
-
-
-.card .client{
+.card .client {
   margin-left: 80px;
   margin-top: -40px;
   display: inline-block;
@@ -524,22 +507,21 @@ margin-top: 30px;
 
 /* clients says */
 
-
 /* footer */
-.footer{
+.footer {
   background-color: #031427;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.input-placheholder{
+.input-placheholder {
   position: relative;
 }
-.return-contact .form-control{
+.return-contact .form-control {
   border-radius: 0;
   height: 100%;
 }
-.input-group-append{
+.input-group-append {
   position: absolute;
   right: 0;
   top: 0;
@@ -547,28 +529,80 @@ margin-top: 30px;
   border-left: none;
   background-color: #fff;
   border-radius: 0;
-  border:none;
+  border: none;
   height: 100%;
   background: #f3f3f3;
 }
-.input-group-append:hover{
+.input-group-append:hover {
   background-color: lightgray;
 }
-.footer a{
+.footer a {
   text-decoration: none;
   color: #ffffffb3;
 }
-.footer a:hover{
-  opacity: .7;
+.footer a:hover {
+  opacity: 0.7;
 }
-.return-contact{
+.return-contact {
   max-width: 400px;
 }
-.input-footer{
+.input-footer {
   display: block;
 }
 /* footer */
 
+/* HEADER-PAGES */
+.bread {
+  background: url(images/header-pages-ocean.jpg) no-repeat center;
+  min-height: 240px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+.breadcrumb {
+  background-color: initial;
+  font-size: 17px;
+}
+.breadcrumb-item a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.breadcrumb-item a:hover {
+  opacity: 0.7;
+}
+.breadcrumb-item.active {
+  color: white;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "\f105";
+  font-family: "FontAwesome";
+  color: white;
+}
+/* HEADER-PAGES */
+
+/* TOP TRAVEL */
+.travel-for {
+  padding-top: 80px;
+}
+.travel-for p {
+  color: #555a64;
+  font-size: 17px;
+  padding-top: 15px;
+}
+
+.travel-for h3 {
+  margin-bottom: 15px;
+}
+.big-trip {
+  background-color: #f8f9fa;
+  width: 100%;
+  margin-top: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* TOP TRAVEL */
 
 /* АДАПТИВЧИК */
 @media only screen and (max-width: 991px) {
@@ -627,21 +661,19 @@ margin-top: 30px;
   }
 }
 
-
-@media only screen and (max-width:472px){
-  .input-placheholder{
+@media only screen and (max-width: 472px) {
+  .input-placheholder {
     width: 70%;
     margin: auto;
   }
 }
-
 
 @media only screen and (max-width: 451px) {
   .pages {
     flex-direction: column;
   }
   .col {
-    overflow: scroll;
+    overflow: overlay;
   }
   .section-inputs input[type="text"],
   input[type="email"],
@@ -656,5 +688,5 @@ margin-top: 30px;
     width: 59%;
     margin-top: 20px;
     margin-left: -57px;
-}
+  }
 }
