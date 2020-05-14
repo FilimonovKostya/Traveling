@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/main.css" />
+    <script
+      src="https://kit.fontawesome.com/5081f59ef3.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Booking Form</title>
+  </head>
+  <body>
+    <!-- ШАПКА САЙТА -->
+ 
+
+    <header class="header">
+   <!-- POPUP -->
+   <div class="popup-wrapper">
+    <label for="popup-search" class="popup-toggle"><i class="fas hidee fa-search"></i></label>
+     <input type="checkbox" id="popup-search" class="popup-check">
+  <div class="popup">
+    <div class="popup-content">
+      <h2>Where do you want to go...</h2>
+      <div class="input-group ">
+        <input type="text" class="form-control" placeholder="Search Here.." aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <button class="btn btn-header-red " type="button" id="button-addon2">Search</button>
+        </div>
+      </div>
+      <label for="popup-search" class="popup-hidden"><i class="far fa-times-circle"></i> </label>
+    </div>
+  </div>
+</div>
+    <!-- POPUP -->
+  
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <nav class="navbar navbar-expand-lg">
+              <label for="popup-search" class="popup-toggle"><i class="fas fa-search"></i></label>
+              <input type="checkbox" id="popup-search" class="popup-check">
+              <a class="navbar-brand" href="index.html"> Traveling </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+              </button>
+              <div
+                class="collapse justify-content-end navbar-collapse"
+                id="navbarNav"
+              >
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <div class="mydrop ">
+                    <a class="nav-link drop-ico" href="#">Pages</a>
+                    <div class="drop-content pages">
+                        <div class="pages-content">
+                        <a href="#">Services</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">Gallery</a>
+                        <a href="#">Team</a>
+                        <a href="#">Team Member</a>
+                        <a href="#">Timeline</a>
+                    </div>
+                    <div class="pages-content">
+                        <a href="#">Faq</a>
+                        <a href="#">Coming Soon</a>
+                        <a href="#">404</a>
+                        <a href="#">Search Results</a>
+                        <a href="#">Login</a>
+                    </div>
+                    <div class="pages-content">
+                        <a href="#">Signip</a>
+                        <a href="#">Single Page</a>
+                        <a href="#">Portfolio</a>
+                        <a href="#">Portfolio Single</a>
+                        <a href="#">Email Template</a>
+                    </div>
+                      </div>
+                      
+                      
+                  </li>
+                  <li class="nav-item">
+                    <div class="mydrop ">
+                    <a class="nav-link drop-ico" href="#">Blog</a>
+                    <div class="drop-content blog">
+                        <a href="#">Blog</a>
+                        <a href="#">Blog Single</a>
+                      
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="mydrop">
+                      <a class="nav-link drop-ico" href="#">Shop</a>
+                      <div class="drop-content">
+                        <a href="#">Ecommerce</a>
+                        <a href="#">Ecommerce Single</a>
+                        <a href="#">Ecommerce Cart</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+                <button type="button" class="btn btn-dark">Book Now</button>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ШАПКА САЙТА -->
+
+
+<!-- ШАПКА САЙТА ХЛЕБНЫЕ КРОШКИ -->
+    <section class="bread d-flex align-items-center">
+        <div class="container ">
+            <nav class="adaa" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+                  <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Book</li>
+                </ol>
+              </nav>
+        </div>
+    </section>
+<!-- ШАПКА САЙТА ХЛЕБНЫЕ КРОШКИ -->
+
+
+<!-- BOOKING FORM -->
+    <div class="d-flex flex-column align-items-center mt-5 mb-5">
+        <h3><strong>Booking Form</strong></h3>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+<!-- BOOKING FORM -->
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="d-flex flex-wrap flex-lg-row flex-column justify-content-around">
+
+      <div class="copyright">
+      <h2><a href="" class="text-light">Travelling</a></h2>
+      <p>All rights reserved.</p>
+      <p>©2020 <a href=""> Filimonov Kostya </a></p>
+    </div>
+
+    <ul class="nav flex-column">
+      <li> <h5 class="text-light"> About </h5></li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">FAQs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Travel Guides</a>
+      </li>
+    </ul>
+
+
+    <ul class="nav flex-column">
+      <li> <h5 class="text-light"> Pages </h5></li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">Products</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Blog Page</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Signup</a>
+      </li>
+    </ul>
+
+
+    <ul class="nav flex-column">
+      <li> <h5 class="text-light"> Explore </h5></li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">Support Centre</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Terms & Conditions</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Privacy Policy</a>
+      </li>
+    </ul>
+
+    <div class="return-contact">
+      <h5 class="text-light">Subscribe</h5>
+      <div class="input-group input-footer mt-3">
+        <div class="input-placheholder">
+        <input type="email" name="email" class="form-control" placeholder="Placeholder" aria-label="Recipient's username" aria-describedby="button-addon2">
+     
+        <div class="input-group-append">
+          <button class="btn " type="button" id="button-addon2"><i class="fab fa-telegram-plane"></i></button>
+        </div>
+        </div>
+      </div>
+      <p>Subscribe to our mailing list and get updates to your email inbox.
+      </p>
+    </div>
+
+    </div>
+  </div>
+  
+</footer>
+<!-- FOOTER -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

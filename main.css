@@ -38,7 +38,7 @@
 .popup-content {
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 100.2%;
   background-color: rgba(0, 0, 0, 0.9);
   display: flex;
   flex-direction: column;
@@ -46,7 +46,8 @@
   align-items: center;
   color: white;
   z-index: 8;
-  height: 100vh;
+  height: 100.3vh;
+  text-align: center;
 }
 
 .popup {
@@ -215,6 +216,7 @@
 /* CЛАЙДЫ */
 .w-100 {
   min-height: 565px;
+  min-width: 950px;
 }
 /* CЛАЙДЫ */
 
@@ -688,5 +690,11 @@ select {
     width: 59%;
     margin-top: 20px;
     margin-left: -57px;
+  }
+}
+
+@media only screen and (max-width:370px){
+  .navbar{
+    justify-content: center;
   }
 }
